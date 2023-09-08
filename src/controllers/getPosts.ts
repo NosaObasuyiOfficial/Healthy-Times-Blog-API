@@ -144,3 +144,9 @@ export const get_single_post = async(req:Request, res:Response) => {
         return res.status(500).json({ error: "Internal server error - Error creating post" });  
     }
 }
+
+
+
+
+
+
